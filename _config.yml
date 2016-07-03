@@ -1,28 +1,40 @@
-name: tangerinesamurai
 favicon: null
-layout_spectrum: 0.08812
-typography_spectrum: 0.57425
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: tangerinesamurai
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
+  saturation: 0.6963418470695615
+  brandStrength: 0.625
+  rhythmicContrast: 0.5
   brandColors:
     - '#090d0c'
     - '#465252'
     - '#828b8a'
     - '#a1aaa9'
     - '#e4e5e9'
-  brandStrength: 0.625
   lightness: 0.8098112379666418
-  saturation: 0.6963418470695615
-  rhythmicContrast: 0.5
-purpose: []
+typography_spectrum: 0.57425
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.6299677
+analytics:
+  twitter: null
+  google: null
+  facebook: null
